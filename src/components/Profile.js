@@ -5,7 +5,6 @@ export const Profile = ({ username, tag, location, avatar, stats: { followers, v
     <img
       src={avatar}
       alt={username}
-      className="avatar"
       width={200}
       height={200}
     />
