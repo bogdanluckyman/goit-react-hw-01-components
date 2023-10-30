@@ -1,4 +1,4 @@
-export const Profile = ({ currentUser: { username, tag, location, avatar, stats: { followers, views, likes } } }) => {
+export const Profile = ({ username, tag, location, avatar, stats: { followers, views, likes } } ) => {
   return (
     <div>
       <div>
@@ -16,15 +16,15 @@ export const Profile = ({ currentUser: { username, tag, location, avatar, stats:
 
   <ul>
     <li>
-      <span>Followers</span>
+      <span>Followers: </span>
       <span>{followers}</span>
     </li>
     <li>
-      <span>Views</span>
+      <span>Views: </span>
       <span>{views}</span>
     </li>
     <li>
-      <span>Likes</span>
+      <span>Likes: </span> 
       <span>{likes}</span>
     </li>
   </ul>
