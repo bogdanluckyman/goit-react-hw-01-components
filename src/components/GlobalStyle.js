@@ -19,4 +19,29 @@ code {
 ul {
     list-style: none;
 }
+
+table {
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+table th {
+    background-color: tomato;
+    color: #fff;
+     font-weight: bold;
+}
+
 `;
